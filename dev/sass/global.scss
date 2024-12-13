@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    font-family: $font-primary !important;
+    flex-direction: column;
+    min-height: 100vh;
+    color: $text-color;
+}
+.container{
+    max-width: 1164px;
+} 
+.container-small{
+    max-width: 800px;
+}
+

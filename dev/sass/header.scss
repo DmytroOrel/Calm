@@ -1,8 +1,15 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
+.navbar-custom{
+	margin-bottom: 100px;
+	.navbar-brand{
+		margin: 20px 749px 20px 120px;
+	}	
+	.navbar-nav{
+		.nav-link{
+			margin-right: 20px;
+			color: $text-color;
+			&:hover{
+				color: #2a84ff;
+			}
+		}
 	}
 }
