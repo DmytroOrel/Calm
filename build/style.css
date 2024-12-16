@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-  max-width: 1164px;
+  max-width: 1464px;
 }
 
 .container-small {
@@ -250,5 +250,58 @@ body {
 }
 .info-blocks .card-box .second-block .small-box-2 .card-small-3 .secondary-title {
   max-width: 200px;
+}
+
+.feedback-block .feedback-box {
+  display: flex;
+  padding: 100px 264px;
+}
+.feedback-block .feedback-box .info-box {
+  margin-right: 16px;
+}
+.feedback-block .feedback-box .info-box .template-title {
+  font-size: 28px;
+  line-height: 137%;
+  color: #353732;
+  margin-bottom: 11px;
+}
+.feedback-block .feedback-box .info-box .feedback-description {
+  font-size: 16px;
+  line-height: 140%;
+  color: #353732;
+  font-weight: 400;
+  max-width: 395px;
+}
+.feedback-block .feedback-box .form-box .input-box {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-block .feedback-box .form-box .input-box label {
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 163%;
+}
+.feedback-block .feedback-box .form-box .input-box input {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  width: 376px;
+  height: 38px;
+  background: rgba(82, 80, 59, 0.02);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.feedback-block .feedback-box .form-box .btn-custom {
+  border-radius: 6px;
+  max-width: 82px;
+  max-height: 38px;
+  background-color: #353732;
+  color: #fff;
+}
+.feedback-block .feedback-box .form-box .btn-custom:hover {
+  color: #2a84ff;
+}
+.feedback-block .feedback-box .form-box .btn-custom:active {
+  color: #353732;
+  background-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

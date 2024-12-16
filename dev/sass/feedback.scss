@@ -1,0 +1,56 @@
+.feedback-block{
+    .feedback-box{
+        display: flex;
+        padding: 100px 264px;
+        .info-box{
+            margin-right: 16px;
+            .template-title{
+                font-size: 28px;
+                line-height: 137%;
+                color: $text-color;
+                margin-bottom: 11px;
+            }
+            .feedback-description{
+                font-size: 16px;
+                line-height: 140%;
+                color: $text-color;
+                font-weight: 400;
+                max-width: 395px;
+            }
+        }
+        .form-box{
+            .input-box{
+                display: flex;
+                flex-direction: column;
+                label{
+                    font-size: 12px;
+                    font-family: $font-primary;
+                    line-height: 163%;
+                }
+                input{
+                    border: 1px solid #e5e7eb;
+                    border-radius: 8px;
+                    width: 376px;
+                    height: 38px;
+                    background: rgba(82, 80, 59, 0.02);
+                    margin-bottom: 10px;
+                    padding: 10px;
+                }
+            }
+            .btn-custom{
+                border-radius: 6px;
+                max-width: 82px;
+                max-height: 38px;
+                background-color: $text-color;
+                color: #fff;
+                &:hover{
+                    color: #2a84ff;
+                }
+                &:active{
+                    color: $text-color;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
