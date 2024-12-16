@@ -1,0 +1,46 @@
+.travel-info{
+    .all-info{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 336px;
+        .info-box{
+            display: flex;
+            .img-box{
+                img{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .text-box,
+        .text-box_outside{
+            .secondary-title{
+                font-size: 18px;
+                line-height: 133%;
+                color: $description-test;
+                margin-bottom: 7px;
+            }
+            .info-description{
+                font-size: 16px;
+                line-height: 140%;
+                color: $description-test;
+                font-family: $font-title;
+                margin-bottom: 16px;
+            }
+            .info-date{
+                font-size: 11px;
+                line-height: 153%;
+                color: $description-test;
+                font-family: $font-title;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .link-custome{
+        margin: 0 auto;
+        text-decoration: none;
+        color: #575445;
+        font-size: 15px;
+        line-height: 149%;
+        margin-top: 29px;
+    }
+}
