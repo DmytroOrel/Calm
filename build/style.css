@@ -39,6 +39,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: #353732;
+  justify-content: center;
 }
 
 .container {
@@ -49,11 +50,54 @@ body {
   max-width: 800px;
 }
 
+.section-bg {
+  background-color: #fafafa;
+  max-width: 1440px;
+}
+
+.title-card {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  margin-left: 20px;
+}
+
+.card-date {
+  font-size: 11px;
+  line-height: 153%;
+  color: #45525B;
+  font-family: "Georgia";
+}
+
+.template-title {
+  font-size: 25px;
+  line-height: 134%;
+  color: #45525B;
+  font-family: "Palatino Linotype";
+}
+
+.template-title_middle {
+  font-size: 17px;
+  line-height: 141%;
+  color: #45525B;
+  font-family: "Palatino Linotype";
+}
+
+.secondary-title {
+  font-size: 16px;
+  line-height: 135%;
+  color: #45525B;
+  font-family: "Palatino Linotype";
+}
+
 .logo-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 336px 108px 440px;
+  margin: 0 336px 108px 336px;
 }
 .logo-text .logo-large {
   margin-bottom: 20px;
@@ -69,5 +113,141 @@ body {
   font-size: 36px;
   line-height: 111%;
   font-family: "Palatino Linotype";
+}
+
+.info-blocks .card-box {
+  padding: 100px 336px 0;
+}
+.info-blocks .card-box .first-block {
+  display: flex;
+  margin-bottom: 18px;
+}
+.info-blocks .card-box .first-block .card-large,
+.info-blocks .card-box .first-block .box-small {
+  margin-right: 17px;
+  background-color: #FFF;
+}
+.info-blocks .card-box .first-block .card-large img,
+.info-blocks .card-box .first-block .box-small img {
+  margin-bottom: 17px;
+}
+.info-blocks .card-box .first-block .card-large .template-title,
+.info-blocks .card-box .first-block .box-small .template-title {
+  margin-bottom: 9px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .first-block .card-large .secondary-title,
+.info-blocks .card-box .first-block .box-small .secondary-title {
+  max-width: 159px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .first-block .card-large .card-description,
+.info-blocks .card-box .first-block .box-small .card-description {
+  font-size: 14px;
+  line-height: 160%;
+  color: #45525B;
+  max-width: 460px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .first-block .card-large .card-date,
+.info-blocks .card-box .first-block .box-small .card-date {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .second-block .middle-box,
+.info-blocks .card-box .second-block .small-box-2 {
+  display: flex;
+}
+.info-blocks .card-box .second-block .middle-box .card-middle,
+.info-blocks .card-box .second-block .middle-box .card-middle-2,
+.info-blocks .card-box .second-block .middle-box .card-small-3,
+.info-blocks .card-box .second-block .middle-box .card-small-4,
+.info-blocks .card-box .second-block .middle-box .card-small-5,
+.info-blocks .card-box .second-block .small-box-2 .card-middle,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 {
+  background-color: #FFF;
+  margin-right: 16px;
+  margin-bottom: 17px;
+}
+.info-blocks .card-box .second-block .middle-box .card-middle img,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 img,
+.info-blocks .card-box .second-block .middle-box .card-small-3 img,
+.info-blocks .card-box .second-block .middle-box .card-small-4 img,
+.info-blocks .card-box .second-block .middle-box .card-small-5 img,
+.info-blocks .card-box .second-block .small-box-2 .card-middle img,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 img,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 img,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 img,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 img {
+  margin-bottom: 20px;
+}
+.info-blocks .card-box .second-block .middle-box .card-middle .title-card,
+.info-blocks .card-box .second-block .middle-box .card-middle .template-title_middle,
+.info-blocks .card-box .second-block .middle-box .card-middle .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 .title-card,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 .template-title_middle,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-3 .title-card,
+.info-blocks .card-box .second-block .middle-box .card-small-3 .template-title_middle,
+.info-blocks .card-box .second-block .middle-box .card-small-3 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-4 .title-card,
+.info-blocks .card-box .second-block .middle-box .card-small-4 .template-title_middle,
+.info-blocks .card-box .second-block .middle-box .card-small-4 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-5 .title-card,
+.info-blocks .card-box .second-block .middle-box .card-small-5 .template-title_middle,
+.info-blocks .card-box .second-block .middle-box .card-small-5 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-middle .title-card,
+.info-blocks .card-box .second-block .small-box-2 .card-middle .template-title_middle,
+.info-blocks .card-box .second-block .small-box-2 .card-middle .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 .title-card,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 .template-title_middle,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .title-card,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .template-title_middle,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 .title-card,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 .template-title_middle,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 .title-card,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 .template-title_middle,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 .secondary-title {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .second-block .middle-box .card-middle .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-3 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-4 .secondary-title,
+.info-blocks .card-box .second-block .middle-box .card-small-5 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-middle .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 .secondary-title,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 .secondary-title {
+  max-width: 150px;
+}
+.info-blocks .card-box .second-block .middle-box .card-middle .card-date,
+.info-blocks .card-box .second-block .middle-box .card-middle-2 .card-date,
+.info-blocks .card-box .second-block .middle-box .card-small-3 .card-date,
+.info-blocks .card-box .second-block .middle-box .card-small-4 .card-date,
+.info-blocks .card-box .second-block .middle-box .card-small-5 .card-date,
+.info-blocks .card-box .second-block .small-box-2 .card-middle .card-date,
+.info-blocks .card-box .second-block .small-box-2 .card-middle-2 .card-date,
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .card-date,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 .card-date,
+.info-blocks .card-box .second-block .small-box-2 .card-small-5 .card-date {
+  margin-bottom: 28px;
+  margin-left: 20px;
+}
+.info-blocks .card-box .second-block .small-box-2 .card-small-3,
+.info-blocks .card-box .second-block .small-box-2 .card-small-4 {
+  margin-right: 17px;
+}
+.info-blocks .card-box .second-block .small-box-2 .card-small-3 .secondary-title {
+  max-width: 200px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+.info-blocks{
+    .card-box{
+        padding: 100px 336px 0;
+        .first-block{
+            display: flex;
+            margin-bottom: 18px;
+            .card-large,
+            .box-small{
+                margin-right: 17px;
+                background-color: #FFF;
+                img{
+                    margin-bottom: 17px;
+                }
+                .template-title{
+                    margin-bottom: 9px;
+                    margin-left: 20px;
+                }
+                .secondary-title{
+                    max-width: 159px;
+                    margin-left: 20px;
+                }
+                .card-description{
+                    font-size: 14px;
+                    line-height: 160%;
+                    color: $description-test;
+                    max-width: 460px;
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                }
+                .card-date{
+                    margin-bottom: 30px;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .second-block{
+            .middle-box,
+            .small-box-2{
+                display: flex;
+                .card-middle,
+                .card-middle-2,
+                .card-small-3,
+                .card-small-4,
+                .card-small-5{
+                    background-color: #FFF;
+                    margin-right: 16px;
+                    margin-bottom: 17px;
+                    img{
+                        margin-bottom: 20px;
+                    }
+                    .title-card,
+                    .template-title_middle,
+                    .secondary-title{
+                        margin-bottom: 10px;
+                        margin-left: 20px;
+                    }
+                    .secondary-title{
+                        max-width: 150px;
+                    }
+                    .card-date{
+                        margin-bottom: 28px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .small-box-2{
+                .card-small-3,
+                .card-small-4{
+                    margin-right: 17px;
+                }
+                .card-small-3{
+                    .secondary-title{
+                        max-width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}

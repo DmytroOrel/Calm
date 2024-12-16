@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     color: $text-color;
+    justify-content: center;
 }
 .container{
     max-width: 1164px;
@@ -11,4 +12,45 @@ body{
 .container-small{
     max-width: 800px;
 }
+.section-bg{
+    background-color: #fafafa;
+    max-width: 1440px;
+}
+.title-card{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    font-family: $font-title-rare;
+    margin-left: 20px;
+}
+.card-date{
+    font-size: 11px;
+    line-height: 153%;
+    color: $description-test;
+    font-family: $font-primary;
+}
+.template-title{
+    font-size: 25px;
+    line-height: 134%;
+    color: $description-test;
+    font-family: $font-title;
+}
+.template-title_middle{
+    font-size: 17px;
+    line-height: 141%;
+    color: $description-test;
+    font-family: $font-title;
+}
+.secondary-title{
+    font-size: 16px;
+    line-height: 135%;
+    color: $description-test;
+    font-family: $font-title;
+}
+
+
+
+
 
