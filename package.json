@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.27.11",
     "css-mqpacker": "^7.0.0",
     "del": "^3.0.0",
