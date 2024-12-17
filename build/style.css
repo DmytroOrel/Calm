@@ -305,6 +305,9 @@ body {
   background-color: transparent;
 }
 
+.travel-info {
+  margin-bottom: 100px;
+}
 .travel-info .all-info {
   display: flex;
   flex-direction: column;
@@ -346,5 +349,30 @@ body {
   font-size: 15px;
   line-height: 149%;
   margin-top: 29px;
+}
+
+.footer-info {
+  margin-bottom: 80px;
+  padding: 0 320px;
+}
+.footer-info .footer-text img {
+  margin-bottom: 9px;
+}
+.footer-info .footer-text .footer-description {
+  font-size: 14px;
+  color: #353732;
+  margin-bottom: 20px;
+}
+.footer-info .footer-nav {
+  margin-bottom: 20px;
+}
+.footer-info .footer-nav a {
+  text-decoration: none;
+  color: #45525B;
+  font-size: 13px;
+  margin-right: 20px;
+}
+.footer-info .footer-nav a:hover {
+  color: #2a84ff;
 }
 /*# sourceMappingURL=style.css.map */
